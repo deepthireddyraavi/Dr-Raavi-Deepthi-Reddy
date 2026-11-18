@@ -21,21 +21,35 @@ No build process, package manager, frontend framework or backend is needed. Open
 
 ## 2. Content source and accuracy notes
 
-The profile content was compiled from the academic CV available for this task. It includes:
-- 11 years of academic experience and the institutions/periods listed in the CV.
-- Ph.D. in Computer Science and Engineering, GITAM University, Hyderabad (January 2026).
-- M.Tech. and B.Tech. qualifications, postdoctoral research details, research areas and selected publication records.
-- Books, book chapters, manuscripts listed as under review, patent activity, the AICTE Research Promotion Scheme grant and awards.
-- Contact information supplied in the CV.
+The **November 18, 2026 resume supplied for this update** is the primary source for the public profile. It supersedes the older CV where the two versions differ. The portfolio now includes:
+- Current Associate Professor appointment at Sreenidhi Institute of Science and Technology (2025–Present), as stated in the new resume.
+- 11 years of academic experience and the reverse-chronological faculty appointments listed in the resume.
+- Ph.D. in Computer Science and Engineering, GITAM University, Hyderabad (January 2026), plus the M.Tech. and B.Tech. credentials.
+- Two postdoctoral research engagements, the research focus areas, SCI-listed papers, selected journal and conference publications, manuscripts under review, books and book chapters.
+- AICTE RPS grant, patent activity, teaching award, conference presentation recognition, editorial board service, invited speaking engagements and peer-review contribution.
+- Contact information provided in the resume.
 
-**Please verify these items before publishing:**
+### Accuracy checks before publication
 
-1. The CV heading identifies the profile as **Associate Professor**, while the current Sreenidhi Institute experience entry lists **Assistant Professor (2025–Present)**. The public portfolio therefore uses the neutral headline “Computer Science & Engineering Academic | Cybersecurity Researcher” and keeps the experience entry as stated. Replace it with the official current designation after checking the appointment record.
-2. Both postdoctoral engagements are marked as ongoing in the supplied CV. Confirm that the titles, supervisors, campuses and current status can be publicly stated.
-3. The CV describes a patent title and July 2025 date, but does not include an application number or legal status. The website deliberately calls this “patent activity” and does not claim that a patent has been granted.
-4. Publication details and statuses are transcribed from the CV. Verify author order, issue/pages, journal indexing, DOI validity and whether each item is published, accepted or presented. In particular, check the supplied DOI 10.48047/1vzeqw30 and the ISBN recorded for DAA before relying on them.
-5. Add complete citation details and official publisher links for conference entries where the CV does not identify the proceedings.
-6. LinkedIn, Google Scholar, ORCID, Scopus Author ID and ResearchGate URLs were not supplied. Do not add guessed profile links.
+1. The new resume identifies the current Sreenidhi appointment as **Associate Professor (2025–Present)**. This designation now appears in the homepage headline, professional experience and structured data.
+2. The two postdoctoral research appointments are described as ongoing in the resume. Confirm that the appointment names, supervisors, locations and current status are accurate and permitted for public display.
+3. The resume provides a patent title and July 2025 date but no application number or legal status. The site describes this as patent activity and does not claim that a patent has been granted.
+4. The resume lists one Expert Systems with Applications citation with a 2027 volume/year. The page reproduces the resume's bibliographic year; confirm whether the publisher currently labels it online-first, in press or assigned to the 2027 volume.
+5. Confirm publication statuses, author order, volume/issue/page details, journal indexing, DOI URLs and ISBNs against publisher records. Conference entries without full proceedings information are clearly identified as needing complete details.
+6. LinkedIn, Google Scholar, ORCID, Scopus Author ID and ResearchGate URLs were not supplied. Add only verified public profile links.
+7. No U.S. work authorization, visa status or current U.S. residence was stated in the resume. The site expresses interest in U.S.-based opportunities without making claims about work authorization.
+
+### U.S. academic job-market presentation
+
+The website uses a U.S.-oriented academic and research profile format:
+- The current title and experience are shown consistently, with the most recent appointment first.
+- A concise professional summary replaces a generic career objective.
+- Education is limited to the Ph.D., master's and bachelor's degrees; high-school and pre-university credentials and percentage marks are omitted as they are generally not needed for an experienced U.S. academic applicant.
+- Selected peer-reviewed/SCI-listed research, funding, editorial service, peer review, invited speaking and awards are easy to locate.
+- American English is used in general website copy. Official publication titles, journal names and event titles retain their original wording.
+- No photograph, date of birth, marital status, personal identification number or reference list is included. Add references separately when an employer or academic search committee requests them.
+
+For U.S. faculty applications, keep a separate full academic CV with complete publication details and a shorter role-targeted résumé where the vacancy asks for one. Tailor the opening summary and selected publications to each position. Add verified Google Scholar, ORCID and LinkedIn URLs when available. Do not state U.S. work authorization or visa eligibility unless accurate and confirmed.
 
 ## 3. Local preview
 
@@ -151,7 +165,7 @@ A loading target under 1.5 seconds is a goal, not a guarantee. Actual performanc
 
 ## 9. Final pre-launch review
 
-- [ ] Confirm the current designation and institutional affiliation.
+- [ ] Confirm current Associate Professor designation and institutional affiliation.
 - [ ] Confirm postdoctoral appointment status and public wording.
 - [ ] Verify every publication status, DOI, ISBN and author order.
 - [ ] Confirm the patent application/grant status and number.
