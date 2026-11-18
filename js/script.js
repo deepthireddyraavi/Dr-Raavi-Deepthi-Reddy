@@ -92,31 +92,6 @@
 
   if (yearNode) yearNode.textContent = String(new Date().getFullYear());
 
-  // Reveal animations are progressive enhancement and respect the reduced-motion setting.
-  var revealTargets = document.querySelectorAll(
-    ".section-heading, .timeline-item, .postdoc-panel, .research-card, .publication-feature, .publication-item, .education-item, .recognition-card, .contact-panel"
-  );
-  var reducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-  if ("IntersectionObserver" in window && !reducedMotion) {
-    revealTargets.forEach(function (element) {
-      element.classList.add("js-reveal");
-    });
-
-    var observer = new IntersectionObserver(function (entries, currentObserver) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("is-visible");
-          currentObserver.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.08, rootMargin: "0px 0px -35px 0px" });
-
-    revealTargets.forEach(function (element) {
-      observer.observe(element);
-    });
-  }
-
   // Export is optional: xlsx.js loads SheetJS only after an explicit visitor action.
   var exportButton = document.getElementById("export-publications");
   if (exportButton) {
