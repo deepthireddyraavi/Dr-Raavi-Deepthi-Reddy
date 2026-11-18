@@ -11,7 +11,7 @@ A responsive, accessible, search-friendly, single-page portfolio built with sema
 - css/style.css
 - js/script.js
 - js/xlsx.js
-- assets/profile-placeholder.svg
+- assets/site-icon.svg
 - assets/og-cover.svg
 - robots.txt
 - sitemap.xml
@@ -61,16 +61,16 @@ Then visit http://localhost:8000 in a browser. A local server is preferable to o
 
 ## 4. Customization
 
-### Replace the profile placeholder
+### Design and layout
 
-The current hero uses assets/profile-placeholder.svg, an initials graphic rather than a real portrait. Add a professional headshot named profile.webp in assets/, then change the image path in index.html to:
+The public-facing layout uses a restrained academic / public-service visual system inspired by the information hierarchy of Norwegian public-service websites:
+- White and pale-blue surfaces, dark readable text and one consistent blue accent.
+- A plain wordmark and compact navigation with no decorative logo treatment.
+- A text-first profile introduction with a factual “At a glance” panel instead of an invented profile illustration.
+- Simple section headings, thin dividers and straightforward publication lists.
+- Minimal motion and no scroll-triggered content reveals, so information is immediately available.
 
-    <img class="profile-placeholder"
-         src="assets/profile.webp"
-         alt="Dr. Raavi Deepthi, Computer Science and Engineering academic"
-         width="220" height="220">
-
-Use a compressed WebP or AVIF image, crop it consistently, and provide a descriptive alt text. Do not upload an image unless you have the right to publish it.
+The site intentionally does not display a portrait because no approved professional headshot was provided. A photograph is optional; do not add a stock or AI-generated face for a professional academic profile.
 
 ### Update personal and professional details
 
@@ -99,7 +99,7 @@ If you prefer no third-party runtime request at all, replace the Excel exporter 
 - [x] JSON-LD Person, ProfilePage and WebSite structured data.
 - [x] Search-engine crawl instructions and XML sitemap.
 - [ ] Verify all public profile and publication URLs before launch.
-- [ ] Add a real professional portrait and a raster social-sharing image if desired.
+- [ ] Confirm that the social preview image and favicon reflect the final public identity.
 
 ### Technical SEO
 - [ ] Publish over HTTPS on a stable domain.
@@ -157,11 +157,11 @@ No install command, build command or output directory is needed.
 
 - No framework, build bundle, external font request or icon package.
 - CSS and JavaScript are local and small; the optional Excel dependency is loaded only on export.
-- Responsive layouts, visible focus styles, skip link, semantic navigation, ARIA state and reduced-motion support.
+- Responsive layouts, visible focus styles, skip link, semantic navigation, ARIA state and simple non-animated content presentation.
 - Print stylesheet for a clean browser-generated PDF.
 - Theme choice is remembered locally when browser storage is available.
 
-A loading target under 1.5 seconds is a goal, not a guarantee. Actual performance depends on hosting, network conditions, device, browser and any images or third-party scripts added later. Keep the real portrait compressed, avoid autoplay media, and re-test the deployed URL using Lighthouse and PageSpeed Insights.
+A loading target under 1.5 seconds is a goal, not a guarantee. Actual performance depends on hosting, network conditions, device, browser and any third-party scripts added later. Keep external dependencies out of the initial page load and re-test the deployed URL using Lighthouse and PageSpeed Insights.
 
 ## 9. Final pre-launch review
 
@@ -170,7 +170,7 @@ A loading target under 1.5 seconds is a goal, not a guarantee. Actual performanc
 - [ ] Verify every publication status, DOI, ISBN and author order.
 - [ ] Confirm the patent application/grant status and number.
 - [ ] Add verified LinkedIn / Google Scholar / ORCID links.
-- [ ] Replace the monogram with an approved portrait if desired.
+- [ ] Confirm the social preview image and favicon are current.
 - [ ] Replace the canonical URL with the final production URL everywhere.
 - [ ] Test on a mobile device, keyboard-only navigation and a screen reader.
 - [ ] Test print-to-PDF and publication export.
