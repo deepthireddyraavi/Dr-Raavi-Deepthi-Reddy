@@ -1,0 +1,5 @@
+# Robots policy for Dr. Raavi Deepthi's public portfolio.
+User-agent: *
+Allow: /
+
+Sitemap: https://deepthireddyraavi.github.io/Dr-Raavi-Deepthi-Reddy/sitemap.xml
